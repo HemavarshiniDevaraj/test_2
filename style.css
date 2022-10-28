@@ -1,0 +1,26 @@
+.container{
+    border-style: outset;
+    display: flex;
+    flex-direction: column;
+}
+.leftpane {
+    width: 25%;
+    height: 100%;
+    float: left;
+    border-collapse: collapse;
+}
+
+.middlepane {
+    width: 50%;
+    height: 100%;
+    float: left;
+    border-collapse: collapse;
+}
+
+.rightpane {
+  width: 25%;
+  height: 100%;
+  position: relative;
+  float: right;
+   border-collapse: collapse;
+} 
